@@ -1,4 +1,4 @@
-#importa as bibliotecas nescessaria para a utilização da webcam
+#importa as bibliotecas nescessaria para a utilização da webcam ou quadro estatico
 import numpy as np
 import cv2
 
@@ -24,7 +24,7 @@ while(True):
    for (x,y,w,h) in faces:
      cv2.rectangle(video,(x,y),(x+w,y+h),(0,255,0),4)
 
-#exibe a mensagem no prompt ao detectar um rosto	 
+#exibe o resultado 
    cv2.imshow("Rosto detectado", video)
 
 #exibe o video em modo continuo sem nenhuma enterrupção   
