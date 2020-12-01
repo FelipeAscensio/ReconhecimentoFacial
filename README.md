@@ -6,5 +6,5 @@ Projeto que tem por finalidade a utilização da biblioteca openCV para reconhec
 
 Esse projeto exige a utização das bibliotecas descritas no requeriments.txt
   
-  pip install numpy
+  pip install numpy <br>
   pip install opencv-python
